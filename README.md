@@ -1,5 +1,7 @@
 # Seismology
 # Coming Soon
+![custom_seismic_plot](https://github.com/user-attachments/assets/c853b27c-2868-48c9-9d14-6debe1de59b1)
+
 Seismology <br>
 https://examples.obspy.org/RJOB_061005_072159.ehz.new <br>
 https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_month.csv <br>
