@@ -2,7 +2,7 @@
 
 ![custom_seismic_plot](https://github.com/user-attachments/assets/c853b27c-2868-48c9-9d14-6debe1de59b1)
 
-# Coming Soon!!
+# Coming Soon!
 
 Welcome to the Seismology repository! This project is dedicated to the application of machine learning techniques in the field of seismology. Our goal is to provide tools and resources for analyzing seismic data and improving earthquake detection and characterization.
 
