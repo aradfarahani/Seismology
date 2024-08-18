@@ -1,3 +1,5 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/aradfarahani/seismology/badge)](https://www.codefactor.io/repository/github/aradfarahani/seismology)
+
 # Seismology
 
 ![custom_seismic_plot](https://github.com/user-attachments/assets/c853b27c-2868-48c9-9d14-6debe1de59b1)
