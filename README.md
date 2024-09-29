@@ -8,6 +8,8 @@
 
 Welcome to the Seismology repository! This project is dedicated to the application of machine learning techniques in the field of seismology. Our goal is to provide tools and resources for analyzing seismic data and improving earthquake detection and characterization.
 
+![Seismic Image](https://github.com/user-attachments/assets/cb18aaf0-494d-4b17-a0e1-1f7302dcac6d)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
