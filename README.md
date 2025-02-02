@@ -2,7 +2,7 @@
 
 # Seismology
 
-![custom_seismic_plot](https://github.com/user-attachments/assets/c853b27c-2868-48c9-9d14-6debe1de59b1)
+![Seismic Trace Animation](seismic_trace_deep_zoom_4.gif)
 
 # Coming Soon!
 
