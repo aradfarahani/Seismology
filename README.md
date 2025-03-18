@@ -4,7 +4,7 @@
 
 ![Seismic Trace Animation](seismic_trace_deep_zoom_4.gif)
 
-# Coming Soon!
+# Coming Soon!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
 
 Welcome to the Seismology repository! This project is dedicated to the application of machine learning techniques in the field of seismology. Our goal is to provide tools and resources for analyzing seismic data and improving earthquake detection and characterization.
 
