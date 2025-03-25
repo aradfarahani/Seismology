@@ -1,12 +1,12 @@
-[![CodeFactor](https://www.codefactor.io/repository/github/aradfarahani/seismology/badge)](https://www.codefactor.io/repository/github/aradfarahani/seismology)
-
 # Seismology
+
+[![CodeFactor](https://www.codefactor.io/repository/github/aradfarahani/seismology/badge)](https://www.codefactor.io/repository/github/aradfarahani/seismology)
 
 ![Seismic Trace Animation](seismic_trace_deep_zoom_4.gif)
 
-# Coming Soon!!!!!!!!!!!!!!!!!!!!!!!
+**Coming Soon! Stay tuned for exciting updates!**!!!!!!!!!!
 
-Welcome to the Seismology repository! This project is dedicated to the application of machine learning techniques in the field of seismology. Our goal is to provide tools and resources for analyzing seismic data and improving earthquake detection and characterization.
+Welcome to the **Seismology** repository! This project explores the intersection of machine learning and seismology, providing tools and resources to analyze seismic data, enhance earthquake detection, and improve event characterization.
 
 ![Seismic Image](https://github.com/user-attachments/assets/cb18aaf0-494d-4b17-a0e1-1f7302dcac6d)
 
@@ -16,69 +16,83 @@ Welcome to the Seismology repository! This project is dedicated to the applicati
 - [Features](#features)
 - [Data Sources](#data-sources)
 - [Installation](#installation)
+- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
 
-Seismology is a project aimed at leveraging machine learning to enhance the analysis of seismic data. By utilizing advanced algorithms, we aim to improve the accuracy and efficiency of earthquake detection and characterization.
+The **Seismology** project harnesses the power of machine learning to revolutionize seismic data analysis. Our mission is to develop robust algorithms and tools that improve the accuracy, efficiency, and scalability of earthquake detection and seismic event characterization, benefiting researchers, scientists, and disaster preparedness efforts worldwide.
 
 ## Features
 
-- **Data Preprocessing**: Tools for cleaning and preparing seismic data for analysis.
-- **Machine Learning Models**: Implementation of various ML models for seismic event detection and classification.
-- **Visualization**: Tools for visualizing seismic data and model outputs.
-- **Benchmarking**: Standardized benchmarks for evaluating model performance.
+- **Data Preprocessing**: Streamlined tools for cleaning, formatting, and preparing seismic datasets.
+- **Machine Learning Models**: State-of-the-art ML implementations for detecting and classifying seismic events.
+- **Visualization**: Interactive and insightful visualizations of seismic data and model predictions.
+- **Benchmarking**: Standardized evaluation metrics and benchmarks to assess model performance.
 
 ## Data Sources
 
-This project utilizes the following data sources:
+This project leverages the following publicly available datasets:
 
-- [Seismic data from ObsPy](https://examples.obspy.org/RJOB_061005_072159.ehz.new)
-- [Earthquake data from USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_month.csv)
+- **[ObsPy Seismic Data](https://examples.obspy.org/RJOB_061005_072159.ehz.new)**: Sample seismic waveforms for testing and development.
+- **[USGS Earthquake Data](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_month.csv)**: Real-time and historical earthquake records (magnitude 2.5+ over the past month).
+
+Additional datasets may be integrated as the project evolves—stay tuned!
 
 ## Installation
 
-To get started with Seismology, clone the repository:
+To set up the **Seismology** project locally, follow these steps:
 
-```bash
-git clone https://github.com/aradfarahani/Seismology.git
-cd Seismology
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/aradfarahani/Seismology.git
+   cd Seismology
+   ```
+
+2. Install dependencies (requirements will be added soon—check back for updates!):
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Verify the setup (instructions forthcoming as the project develops).
+
+## Usage
+
+Detailed usage instructions will be provided once the core functionality is released. For now, explore the repository structure and sample data to get familiar with the project. Example workflows and scripts will be added in upcoming updates.
 
 ## Contributing
 
-We welcome contributions from the community! If you'd like to contribute, please follow these steps:
+We warmly welcome contributions from the community! To contribute:
 
 1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Add new feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Open a pull request.
+2. Create a feature branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. Implement your changes.
+4. Commit your work:
+   ```bash
+   git commit -m "Add your concise commit message"
+   ```
+5. Push to your branch:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+6. Submit a pull request via GitHub.
+
+Please adhere to the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/) to ensure a collaborative and inclusive environment.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
-We would like to thank all the contributors and the open-source community for their support.
+A heartfelt thank you to:
+- The open-source community for their invaluable tools and inspiration.
+- Contributors who are helping shape this project.
+- Organizations like [ObsPy](https://obspy.org/) and the [USGS](https://www.usgs.gov/) for providing accessible seismic data.
 
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seismicity Map</title>
-</head>
-<body>
-    <h1>Seismicity Map</h1>
-    <iframe src="https://raw.githubusercontent.com/aradfarahani/Seismology/main/seismicity_map.html" width="100%" height="600px" frameborder="0"></iframe>
-</body>
-</html>
-
-
-<iframe src="https://raw.githubusercontent.com/aradfarahani/Seismology/main/seismicity_map.html" width="100%" height="600px" frameborder="0"></iframe>
+Stay tuned for more updates as we continue to build and refine **Seismology**!
