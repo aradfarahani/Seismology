@@ -4,7 +4,7 @@
 
 ![Seismic Trace Animation](seismic_trace_deep_zoom_4.gif)
 
-**Coming Soon! Stay tuned for exciting updates!**!!!!!!!!!!
+**Coming Soon! Stay tuned for exciting updates!**!!!!!!!!!
 
 Welcome to the **Seismology** repository! This project explores the intersection of machine learning and seismology, providing tools and resources to analyze seismic data, enhance earthquake detection, and improve event characterization.
 
