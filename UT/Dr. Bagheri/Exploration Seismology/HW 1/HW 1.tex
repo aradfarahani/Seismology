@@ -1,0 +1,188 @@
+\documentclass[letterpaper,11pt]{article}
+\newlength{\outerbordwidth}
+\raggedbottom
+\raggedright
+\usepackage[svgnames]{xcolor}
+\usepackage{framed}
+\usepackage{tocloft}
+\usepackage{amsmath}
+\usepackage{etoolbox}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{ragged2e}
+\usepackage{hyperref}
+\usepackage[normalem]{ulem}
+
+\author{Mahdi Farmahini Farahani}
+
+
+\hypersetup{hidelinks}
+
+\setcounter{secnumdepth}{0}
+\usepackage{titlesec}
+\titlespacing{\subsection}{0pt}{*0}{*0}
+\titlespacing{\subsubsection}{0pt}{*0}{*0}
+\titleformat{\section}{\large\bfseries\uppercase}{}{}{}[\titlerule]
+\titleformat*{\subsubsection}{\large\itshape}
+
+\geometry{
+	letterpaper,
+	left=0.75in,
+	right=0.75in,
+	top=0.25in,
+	bottom=0.5in,
+	footskip=16pt
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\makeatletter
+\renewcommand{\footrule}{%
+	\vskip-3pt
+	\hbox to\textwidth{%
+		\hfil
+		\color{footergray}\rule{\textwidth}{0.4pt}%
+		\hfil
+	}%
+	\vskip2pt
+}
+\makeatother
+\definecolor{footergray}{gray}{0.5}
+\fancyfoot[L]{\color{footergray}\footnotesize Mahdi Farmahini Farahani (Arad)}
+\fancyfoot[C]{\color{footergray}\footnotesize \thepage\ / \pageref{LastPage}}
+\fancyfoot[R]{\color{footergray}\footnotesize \today}
+
+% Custom commands
+\robustify\cftdotfill
+\setlength{\outerbordwidth}{3pt}
+\definecolor{shadecolor}{gray}{0.75}
+\definecolor{shadecolorB}{gray}{0.93}
+
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{\vspace{8pt}
+	\parbox{\textwidth}{\setlength{\FrameSep}{\outerbordwidth}
+		\begin{shaded}
+			\setlength{\fboxsep}{0pt}\framebox[\textwidth][l]{\setlength{\fboxsep}{4pt}\fcolorbox{shadecolorB}{shadecolorB}{\textbf{\sffamily{\mbox{~}\makebox[6.762in][l]{\large #1} \vphantom{p\^{E}}}}}}
+		\end{shaded}
+	}\vspace{-5pt}
+}
+\newcommand{\ressubheading}[4]{%
+	\begin{tabular*}{\textwidth}{l@{\cftdotfill{\cftsecdotsep}\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+	\end{tabular*}\vspace{-8pt}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+	\thispagestyle{fancy}
+	
+	% Header block
+	\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+		\Large{Mahdi Farmahini Farahani} {\Large\textbf{(Arad)}} & \textbf{Student ID: 620104023} \\
+		\href{mailto:aradfarahani@aol.com}{\texttt{E.mail: aradfarahani@aol.com}} & \href{https://aradfarahani.com/}{\texttt{Website: aradfarahani.com}} \\
+		\texttt{Handle: @aradfarahani} & \href{https://orcid.org/0009-0008-3800-8688}{\texttt{ORCID: 0009-0008-3800-8688}}
+	\end{tabular*}
+	
+	\vspace{1.9em}
+	
+	\vspace{-1.3em}
+	\justifying
+	\textbf{Part (a): Poisson’s ratio}
+	\[
+	\sigma_{ij} = \lambda \,\delta_{ij}\,\varepsilon_{kk} + 2\mu\,\varepsilon_{ij},
+	\]
+	where $\lambda$ and $\mu$ are the Lamé parameters, and $\varepsilon_{kk} = \varepsilon_{xx} + \varepsilon_{yy} + \varepsilon_{zz}$.
+	
+	Consider a uniaxial stress state,
+	\[
+	\sigma_{xx} = \sigma, \qquad \sigma_{yy} = \sigma_{zz} = 0.
+	\]
+	Due to symmetry of loading,
+	\[
+	\qquad \varepsilon_{yy} = \varepsilon_{zz} = \varepsilon_{t}.
+	\]
+	
+	Apply Hooke's law to the $xx$-component:
+	\[
+	\sigma = \lambda(\varepsilon_{xx} + 2\varepsilon_{t}) + 2\mu\,\varepsilon_{xx}.
+	\]
+	
+	Apply Hooke's law to the $yy$-component where stress is zero:
+	\[
+	0 = \lambda(\varepsilon_{xx} + 2\varepsilon_{t}) + 2\mu\,\varepsilon_{t}.
+	\]
+	
+	Solve the second equation for $\varepsilon_{zz} = \varepsilon_{yy}$:
+	\[
+	\lambda\varepsilon_{xx} + 2(\lambda + \mu)\varepsilon_{yy} = 0,
+	\]
+	or
+	\[
+	\lambda\varepsilon_{xx} + 2(\lambda + \mu)\varepsilon_{zz} = 0,
+	\]
+	\[
+	\varepsilon_{zz} = \varepsilon_{yy}= -\frac{\lambda}{2(\lambda + \mu)}\,\varepsilon_{xx}.
+	\]
+	
+	Poisson's ratio ($\nu$) is defined as the negative ratio of lateral strain to longitudinal strain:
+	\[
+	\nu = -\frac{\varepsilon_{yy}}{\varepsilon_{xx}} = -\frac{\varepsilon_{zz}}{\varepsilon_{xx}}.
+	\]
+	
+	Therefore,
+	\[
+	\boxed{\nu = \frac{\lambda}{2(\lambda + \mu)}}.
+	\]
+	\textbf{Part (b): Young’s modulus}
+
+
+\[
+0=\lambda(\varepsilon_{xx}+2\varepsilon_t)+2\mu\,\varepsilon_t
+\quad\Rightarrow\quad
+\lambda\varepsilon_{xx}+(2\lambda+2\mu)\varepsilon_t=0,
+\]
+so
+\[
+\varepsilon_t=-\frac{\lambda}{2(\lambda+\mu)}\,\varepsilon_{xx}.
+\]
+
+The \(xx\) component gives
+\[
+\sigma=\lambda(\varepsilon_{xx}+2\varepsilon_t)+2\mu\varepsilon_{xx}.
+\]
+Substitute \(\varepsilon_t\):
+\[
+\sigma
+= \lambda\varepsilon_{xx} + 2\lambda\varepsilon_t + 2\mu\varepsilon_{xx}
+= (\lambda+2\mu)\varepsilon_{xx}
++2\lambda\!\left(-\frac{\lambda}{2(\lambda+\mu)}\varepsilon_{xx}\right).
+\]
+Simplify:
+\[
+\sigma
+= \Big[(\lambda+2\mu)-\frac{\lambda^2}{\lambda+\mu}\Big]\varepsilon_{xx}
+= \frac{(\lambda+2\mu)(\lambda+\mu)-\lambda^2}{\lambda+\mu}\,\varepsilon_{xx}.
+\]
+
+\[
+(\lambda+2\mu)(\lambda+\mu)-\lambda^2
+= \lambda^2+3\lambda\mu+2\mu^2-\lambda^2
+= \mu(3\lambda+2\mu).
+\]
+Therefore
+\[
+\sigma = \frac{\mu(3\lambda+2\mu)}{\lambda+\mu}\,\varepsilon_{xx}.
+\]
+
+By definition, Young's modulus is \(E=\dfrac{\sigma}{\varepsilon_{xx}}\) under uniaxial stress, so
+\[
+\boxed{ \;E=\frac{\mu(3\lambda+2\mu)}{\lambda+\mu}\; }.
+\]
+
+\end{document}
