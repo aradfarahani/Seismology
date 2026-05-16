@@ -1,5 +1,5 @@
 # Seismology
-
+ 
 [![CodeFactor](https://www.codefactor.io/repository/github/aradfarahani/seismology/badge)](https://www.codefactor.io/repository/github/aradfarahani/seismology)
 
 ![Seismic Trace Animation](seismic_trace_deep_zoom_4.gif)
