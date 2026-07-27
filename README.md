@@ -7,7 +7,7 @@
 **Coming Soon! Stay tuned for exciting updates!**
 
 Welcome to the **Seismology** repository! This project explores the intersection of machine learning and seismology, providing tools and resources to analyze seismic data, enhance earthquake detection, and improve event characterization.
- 
+
 ![Seismic Image](https://github.com/user-attachments/assets/cb18aaf0-494d-4b17-a0e1-1f7302dcac6d)
 
 ## Table of Contents:
