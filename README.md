@@ -1,4 +1,4 @@
-# Seismology  
+# Seismology 
 
 [![CodeFactor](https://www.codefactor.io/repository/github/aradfarahani/seismology/badge)](https://www.codefactor.io/repository/github/aradfarahani/seismology) 
  
