@@ -27,7 +27,7 @@ The **Seismology** project  harnesses the power of machine learning to revolutio
 
 ## Features
 
-- **Data Preprocessing**: Streamlined tools for cleaning, formatting, and preparing seismic datasets.
+- **Data Preprocessing**: Streamlined tools for cleaning, formatting, and preparing seismic datasets. 
 - **Machine Learning Models**: State-of-the-art ML implementations for detecting and classifying seismic events.
 - **Visualization**: Interactive and insightful visualizations of seismic data and model predictions.
 - **Benchmarking**: Standardized evaluation metrics and benchmarks to assess model performance.
