@@ -23,7 +23,7 @@ Welcome to the **Seismology** repository! This project explores the intersection
 
 ## Introduction
 
-The **Seismology** project  harnesses the power of machine learning to revolutionize seismic data analysis. Our mission is to develop robust algorithms and tools that improve the accuracy, efficiency, and scalability of earthquake detection and seismic event characterization, benefiting researchers, scientists, and disaster preparedness efforts worldwide.
+The **Seismology** project harnesses the power of machine learning to revolutionize seismic data analysis. Our mission is to develop robust algorithms and tools that improve the accuracy, efficiency, and scalability of earthquake detection and seismic event characterization, benefiting researchers, scientists, and disaster preparedness efforts worldwide.
 
 ## Features
 
